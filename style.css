@@ -1,0 +1,139 @@
+/* Add your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+/* Student Form Container */
+#student-form-container {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    margin-bottom: 1rem;
+}
+
+/* Student Form */
+#student-form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#student-form input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+#student-form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+#student-form button:hover {
+    background-color: #555;
+}
+
+/* Student List Container */
+#student-list-container {
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    margin-bottom: 1rem;
+}
+
+/* Student List Table */
+#student-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#student-list th, #student-list td {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+#student-list th {
+    background-color: #333;
+    color: white;
+}
+
+#student-list .editable-id, #student-list .editable-name {
+    border: none;
+    background-color: transparent;
+}
+
+#student-list .attendance-radio {
+    margin: 0 0.2rem;
+}
+
+/* Save Button */
+#save-btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    float: right;
+}
+
+#save-btn:hover {
+    background-color: #555;
+}
+
+/* Present and Absent Students Tables */
+#present-students, #absent-students {
+    margin-top: 2rem;
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
+
+#present-students table, #absent-students table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#present-students th, #present-students td, #absent-students th, #absent-students td {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+#present-students th {
+    background-color: #333;
+    color: white;
+}
+
+#absent-students th {
+    background-color: #800000;
+    color: white;
+}
+
+/* Edit Student Container */
+#edit-student-container {
+    border: 2px solid #336699;
+    padding: 1rem;
+    background-color: #f0f7fc;
+    margin-bottom: 1rem;
+}
